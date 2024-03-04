@@ -36,7 +36,7 @@ async function run() {
     const database = client.db('MyDBexample');
     const parts = database.collection('MyStuff');
 
-    e
+    
     const query = { partID: req.params.item };
 
     const part = await parts.findOne(query);
